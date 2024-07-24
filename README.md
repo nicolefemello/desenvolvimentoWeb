@@ -4,4 +4,5 @@
 - *IFC - Campus Araquari*
 
 ## Atividade - Página Pessoal
-> "Aqui vai uma citação"
+> "Faça como um programador. Quando tudo está errado e confuso, apague tudo e recomece do zero." *Orlando Cordeiro*
+
