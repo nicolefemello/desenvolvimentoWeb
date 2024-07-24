@@ -1,4 +1,4 @@
-# Atividade - Desenvolvimento Web  
+# Desenvolvimento Web  
 
 - Autor: [Nicole Ferreira Mello](https://github.com/nicolefemello)
 - *IFC - Campus Araquari*
