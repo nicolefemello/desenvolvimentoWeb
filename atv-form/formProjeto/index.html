@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Projeto</title>
+</head>
+<body>
+    <header>
+        <h1>Cadastro de Projeto</h1>
+    </header>
+    <form action="#" method="get">
+        <p><label for="titulo">*Título do projeto:</label>
+        <input type="text" id="titulo" name="titulo" required></p>
+        <p><label for="coordenador">*Coordenador do projeto:</label>
+        <input type="text" id="coordenador" name="coordenador" required></p>
+        <p><label for="orcamento">*Previsão de orçamento: R$</label>
+        <input type="number" id="orcamento" name="orcamento" required></p>
+        <p><label for="inicio">*Data de início:</label>
+        <input type="date" id="inicio" name="inicio" required></p>
+        <p><label for="fim">*Data de fim:</label>
+        <input type="date" id="fim" name="fim" required></p>
+        <p><label for="duracao">Tempo de duração:</label>
+        <select name="duracao" id="duracao">
+            <option value="1">Trimestral</option>
+            <option value="2">Semestral</option>
+            <option value="3">Anual</option>
+        </select></p>
+        <fieldset>
+            <legend>Objetivos de Desenvolvimento Sustentável</legend>
+            <label><input type="checkbox" value="1" name="objetivos">Erradicação da pobreza</label>
+            <label><input type="checkbox" value="2" name="objetivos">Fome zero e agricultura sustentável</label>
+            <label><input type="checkbox" value="3" name="objetivos">Saúde de bem-estar</label>
+            <label><input type="checkbox" value="4" name="objetivos">Educação de qualidade</label>
+            <label><input type="checkbox" value="5" name="objetivos">Iguldade de gênero</label>
+            <label><input type="checkbox" value="6" name="objetivos">Água potável e saneamento básico</label>
+            <label><input type="checkbox" value="7" name="objetivos">Energia limpa e acessível</label>
+            <label><input type="checkbox" value="8" name="objetivos">Trabalho decente e crescimento econômico</label>
+            <label><input type="checkbox" value="9" name="objetivos">Indústria, inovação e infraestrutura</label>
+        </fieldset>
+        <fieldset>
+            <legend>Nível de Impacto:</legend>
+            <label><input type="radio" value="1" name="impacto">Regional</label>
+            <label><input type="radio" value="2" name="impacto">Nacional</label>
+        </fieldset>
+        <p><input type="checkbox" value="1" name="notificacoes">Desejo receber notificações por email sobre outras chamadas</p>
+        <p><button type="reset">LIMPAR</button> <button type="submit">ENVIAR</button></p>
+    </form>
+</body>
+</html>
