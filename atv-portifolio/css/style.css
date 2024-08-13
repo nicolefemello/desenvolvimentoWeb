@@ -5,4 +5,81 @@
     list-style:none;
     border:0;
     }
-    /*CSS Reset */
+    /*CSS Reset -- tira formatação herdada do html*/
+/*aula 09 - formatação geral*/
+
+/*=======================
+        formatação geral
+   ======================*/
+ html {
+    font-size: calc (10px + 1vw); /*fonte com tamanho fluído, dependendo do tamanho da tela, varia o tamanho da fonte*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+ }
+ html body a {
+    text-decoration: none; /*sem linha nos links*/
+    color: #21243d; /*cor azul*/
+ }
+
+/*=======================
+    formatação da topo da página
+  =======================*/
+ header {
+    margin: 0 5vw 3vw 5vw; /*atribui espaçamento do topo*/
+ } 
+ header nav ul {
+    display: flex; /*leva os itens para a direita*/
+    justify-content: right; /*os itens um ao lado do outro*/
+    
+ }
+ header nav ul li {
+    margin: 1vw 10px 1vw 10px; /*margin = espaçamento externo, padding = espaçamento interno*/
+ }
+ header nav ul li.atual a {
+    color: #ff6464; /*muda a cor dos caracteres*/
+ }
+/*=======================
+    formatação de conteúdo
+  =======================*/
+  main.works {
+    margin: 0 30vw 0 30vw; /*espaçamento do título*/
+  }
+  main.works h1 {
+    font-weight: normal; /*remove negrito da fonte (vai de 100 a 900)*/
+    margin: 0 0 0 0; /*espaçamento do título*/
+  }
+  main.works section {
+    border-bottom: 1px solid #e0e0e0; /*borda das sections (apenas na parte de baixo*/
+    padding: 3vw 0 2vw 0; /*espaçamento das sections*/ 
+  }
+  main.works section:last-child {
+    border: none; /*remove a borda da última section*/
+  }
+  main.works section p {
+    margin: 1vw 0 1vw 0; /*espaçamento do parágrafo*/
+  }
+  main.works section p span {
+   color: white; /*cor da fonte*/
+   background-color: #ff6464; /*cor do fundo*/
+   border-radius: 35px;/*borda do span*/
+   padding: 2px 7px 2px 7px; /*espaçamento do span*/
+   font-weight: bold; /*negrito da fonte*/
+  }
+  /*=======================
+    formatação de rodapé
+  =======================*/
+  footer {
+    text-align: center; /*centraliza o texto do rodapé*/
+    padding: 1vw 0 2vw 0; /*espaçamento do rodapé*/
+  }
+  footer nav ul {
+    display: flex; /*coloca os elementos um ao lado do outro*/
+    justify-content: center; /*alinha os ícones ao centro*/
+  }
+  footer nav ul li {
+    margin: 0 10px 5px 10px; /*espaçamento dos ícones*/
+    font-size: 2rem; /*tamanho dos ícones (no caso o ícone é uma fonte)*/
+  }
+  footer nav ul li a span {
+   color: #21243d; /*cor dos ícones*/
+  }
