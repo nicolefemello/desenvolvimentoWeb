@@ -20,7 +20,9 @@
     text-decoration: none; /*sem linha nos links*/
     color: #21243d; /*cor azul*/
  }
-
+main {
+    margin: 0 20vw 0 20vw; /*espaçamento do título*/
+  }
 /*=======================
     formatação da topo da página
   =======================*/
@@ -28,8 +30,8 @@
     margin: 0 5vw 3vw 5vw; /*atribui espaçamento do topo*/
  } 
  header nav ul {
-    display: flex; /*leva os itens para a direita*/
-    justify-content: right; /*os itens um ao lado do outro*/
+    display: flex; /*os itens um ao lado do outro*/
+    justify-content: right; /*leva os itens para a direita*/
     
  }
  header nav ul li {
@@ -39,11 +41,8 @@
     color: #ff6464; /*muda a cor dos caracteres*/
  }
 /*=======================
-    formatação de conteúdo
+    formatação works
   =======================*/
-  main.works {
-    margin: 0 30vw 0 30vw; /*espaçamento do título*/
-  }
   main.works h1 {
     font-weight: normal; /*remove negrito da fonte (vai de 100 a 900)*/
     margin: 0 0 0 0; /*espaçamento do título*/
@@ -64,7 +63,74 @@
    border-radius: 35px;/*borda do span*/
    padding: 2px 7px 2px 7px; /*espaçamento do span*/
    font-weight: bold; /*negrito da fonte*/
+  }  
+  /*=======================
+    formatação de home
+  =======================*/
+  section#banner {
+    display: flex; /*coloca os elementos um ao lado do outro*/
+    margin: 6vw 0 3vw 0; /*espaçamento do banner*/
   }
+  section#banner h1 {
+    font-size: 3vw; /*tamanho da fonte*/
+    margin: 0 0 2vw 0; /*espaçamento com o parágrafo*/
+  }
+  section#banner button {
+    background-color: #FF6464; /*fundo do botão*/
+    margin: 1vw 0 0 0; /*espaçamento com os textos*/
+    padding: 1vw 1vw 1vw 1vw; /*espaçamento dentro do botão*/
+    color: white; /*cor da fonte: bramca*/
+    font-size: 1rem; /*tamanho da fonte*/
+    border-radius: 2px; /*arredondamento da borda*/ 
+  }
+  section#banner img {
+    margin: 0 0 0 10vw; /*espaçamento do banner*/
+  }
+  section#rt-posts {
+    background-color: #EDF7FA;/*cor de fundo da section*/
+    padding: 2vw 0 2vw 0; /*esáçamento dentro da section*/
+  }
+  section#rt-posts ul {
+    display: flex; /*coloca os elementos um do lado do outro*/
+  }
+  section#rt-posts ul li {
+    background-color: white; /*altera o fundo do item para branco*/
+    margin: 0 5vw 0 5vw; /*espaçamento*/
+  }
+  section#rt-posts h2 {
+    font-weight: normal; /*tira o negrito*/
+    margin: 0 0 2vw 5vw; /*espaçamento*/
+  }
+  section#rt-posts ul li h3 {
+    margin: 1vw 1vw 2vw 1vw; /*espaçamento*/
+  }
+  section#rt-posts ul li p {
+    margin: 1vw 1vw 1vw 1vw; /*espaçamento*/
+  }
+  section#featuredWorks {
+    margin: 2vw 0 2vw 0; /*espaçamento*/
+  }
+  section#featuredWorks h2 {
+    font-weight: normal;
+    margin: 0 0 2vw 0; /*espaçamento*/
+  }
+  section#featuredWorks ul {
+    display: flex; /*coloca os elemntos uns ao lado dos outros*/
+  }
+  section#featuredWorks ul li {
+    margin: 0 4vw 0 4vw; /*espaçamento*/
+  }
+  section#featuredWorks ul li p span {
+    background-color: #142850; /*cor do fundo*/
+    color: white; /*cor da fonte*/
+    border-radius: 20px; /*borda arredondada*/
+    font-weight: bold; /*negrito*/
+    padding: 2px 7px 2px 7px; /*espaçamento*/
+  }
+  section#featuredWorks ul li p {
+    padding: 5px 0 5px 0; /*espaçamento*/
+  }
+
   /*=======================
     formatação de rodapé
   =======================*/
