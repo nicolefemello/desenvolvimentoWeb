@@ -52,6 +52,7 @@ main {
     padding: 3vw 0 2vw 0; /*espaçamento das sections*/ 
   }
   main.works section:last-child {
+
     border: none; /*remove a borda da última section*/
   }
   main.works section p {
@@ -63,7 +64,10 @@ main {
    border-radius: 35px;/*borda do span*/
    padding: 2px 7px 2px 7px; /*espaçamento do span*/
    font-weight: bold; /*negrito da fonte*/
-  }  
+  }
+  .imgWorks {
+    justify-content: center;
+  }
   /*=======================
     formatação de home
   =======================*/
@@ -79,7 +83,7 @@ main {
     background-color: #FF6464; /*fundo do botão*/
     margin: 1vw 0 0 0; /*espaçamento com os textos*/
     padding: 1vw 1vw 1vw 1vw; /*espaçamento dentro do botão*/
-    color: white; /*cor da fonte: bramca*/
+    color: white; /*cor da fonte: branca*/
     font-size: 1rem; /*tamanho da fonte*/
     border-radius: 2px; /*arredondamento da borda*/ 
   }
@@ -114,20 +118,23 @@ main {
     font-weight: normal;
     margin: 0 0 2vw 0; /*espaçamento*/
   }
-  section#featuredWorks ul {
-    display: flex; /*coloca os elemntos uns ao lado dos outros*/
+  section#featuredWorks div#divCentral { /*ou section#featuredWorks > div*/
+    display: flex; /*coloca os elementos uns ao lado dos outros*/
   }
-  section#featuredWorks ul li {
-    margin: 0 4vw 0 4vw; /*espaçamento*/
+  section#featuredWorks div div{
+    margin: 0 0vw 0 7vw; /*espaçamento*/
   }
-  section#featuredWorks ul li p span {
+  section#featuredWorks div div:first-child {
+    margin: 0;
+  }
+  section#featuredWorks div p span {
     background-color: #142850; /*cor do fundo*/
     color: white; /*cor da fonte*/
     border-radius: 20px; /*borda arredondada*/
     font-weight: bold; /*negrito*/
     padding: 2px 7px 2px 7px; /*espaçamento*/
   }
-  section#featuredWorks ul li p {
+  section#featuredWorks div p {
     padding: 5px 0 5px 0; /*espaçamento*/
   }
 
