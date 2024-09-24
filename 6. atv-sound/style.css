@@ -35,6 +35,7 @@ main {
 section#samanthaWilliam {
     margin: 3vw 3vw 3vw 6vw; /*espaçamento*/
     display: flex; /*coloca os elementos uns ao lado dos outros*/
+    border-bottom: 1px solid #e0e0e0;
 }
 section#samanthaWilliam div img#oval {
     border-radius: 550px; /*borda arredondada*/
@@ -58,10 +59,22 @@ section#samanthaWilliam div#retangulo p {
     display: flex; /*coloca os elementos uns ao lado dos outros*/
 }
 section#samanthaWilliam div#retangulo p#profissao {
-    color: gray;
-    
+    color: gray;   
 }
 
+section#browse {
+    display: flex;
+}
+section#browse div {
+    margin: 2vw 8vw;
+}
+section#browse div.list h3{
+    color: #7a8088;
+}
+section#browse div.list span {
+    display: flex;
+    
+}
 /*=======================
     formatação de rodapé
   =======================*/
