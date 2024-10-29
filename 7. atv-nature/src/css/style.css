@@ -1,0 +1,194 @@
+/***********************************************************************
+                    FORMATAÇÃO GERAL
+************************************************************************/
+html {
+  font-size: calc(15px + 0.390625vw); /*fonte responsível*/
+}
+
+/***********************************************************************
+                    FORMATAÇÃO DO HEADER
+************************************************************************/
+header {
+  background-color: #3b8686;
+  padding: 30px 5vw 30px 5vw;
+
+  & nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+
+    & h1 {
+      margin: 0 0 0 5vw;
+    }
+
+    & ul {
+      display: flex;
+
+      & li a {
+        margin: 0 2vw 0 2vw;
+        text-decoration: none;
+        color: #fff;
+        font-size: 18px;
+      }
+
+      & li a.atual {
+        background: rgba(255, 255, 255, 0.2);
+        padding: 5px 15px 5px 15px;
+        border-radius: 20px;
+      }
+
+      & a.atual:hover {
+        background: rgba(255, 255, 255, 0.5);
+      }
+    }
+  }
+}
+
+/***********************************************************************
+                    FORMATAÇÃO DA PÁGINA
+************************************************************************/
+section#banner {
+  background: linear-gradient(
+      rgba(121, 189, 154, 0.2),
+      rgba(112, 255, 181, 0.2)
+    ),
+    url(../img/banner.png) no-repeat center center;
+  background-size: 100% auto, 100% auto;
+  padding: 350px 5vw 350px 5vw;
+
+  & h2 {
+    font-size: 3rem;
+    color: #fff;
+    width: 45%;
+    background-color: rgba(59, 134, 134, 0.2);
+  }
+}
+
+section#diferenciais {
+  display: flex;
+  justify-content: center;
+  padding: 5vw;
+
+  & div.diferencial {
+    text-align: center;
+    margin: 1vw 2vw 1vw 2vw;
+
+    & i {
+      color: #3b8686;
+    }
+
+    & h2 {
+      margin: 1vw;
+    }
+
+    & p {
+      color: #747474;
+      font-size: 17px;
+      margin: 2vw;
+    }
+
+    & a {
+      background-color: #3b8686;
+      color: #fff;
+      padding: 1vw 2vw 1vw 2vw;
+      text-decoration: none;
+      font-size: 18px;
+    }
+
+    & a:hover {
+      background-color: #52b8b8;
+    }
+  }
+}
+
+section#numeros {
+  background: linear-gradient(
+      rgba(121, 189, 154, 0.2),
+      rgba(72, 160, 114, 0.658)
+    ),
+    url(../img/back-numeros.png) no-repeat center center;
+  background-size: 100% auto, 100% auto;
+  padding: 3vw;
+
+  & ul {
+    display: flex;
+    justify-content: space-around;
+
+    & li {
+      margin: 2vw;
+      text-align: center;
+      color: white;
+      font-size: 50px;
+
+      & p {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+section#possibilidades {
+  padding: 6vw;
+  display: flex;
+  justify-content: center;
+
+  & div.possibilidade {
+    padding: 5vw;
+
+    & h2 {
+      color: #0b486b;
+      font-size: 40px;
+      margin: 2vw;
+    }
+
+    & p {
+      font-size: 18px;
+      color: #747474;
+      margin: 2vw;
+    }
+
+    & a {
+    margin: 2vw 1vw 2vw 1vw;
+      background-color: #0b486b;
+      color: #fff;
+      padding: 1vw 2vw 1vw 2vw;
+      text-decoration: none;
+      font-size: 17px;
+    }
+
+    & a:hover {
+        background-color: #106799;
+    }
+  }
+
+  & img {
+    margin: 3vw 0 0 0;
+    width: 700px;
+    height: 400px;
+  }
+}
+
+/***********************************************************************
+                    FORMATAÇÃO DO FOOTER
+************************************************************************/
+footer {
+    background-color: #3b8686;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    padding: 3vw;
+
+    & div {
+        margin: 0 10vw 0 10vw;
+        text-align: center;
+
+        & h4 {
+            font-weight: bold;
+        }
+        
+        & ul li a {
+          color: #fff;
+          text-decoration: none;
+        }
+    }
+}

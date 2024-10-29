@@ -1,0 +1,158 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    border:0;
+    }
+    /*CSS Reset -- tira formatação herdada do html*/
+/*aula 09 - formatação geral*/
+
+/*=======================
+        formatação geral
+   ======================*/
+ html {
+    font-size: calc (10px + 1vw); /*fonte com tamanho fluído, dependendo do tamanho da tela, varia o tamanho da fonte*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #21243d;
+ }
+ html body a {
+    text-decoration: none; /*sem linha nos links*/
+    color: #21243d; /*cor azul*/
+ }
+main {
+    margin: 0 20vw 0 20vw; /*espaçamento do título*/
+  }
+/*=======================
+    formatação da topo da página
+  =======================*/
+ header {
+    margin: 0 5vw 3vw 5vw; /*atribui espaçamento do topo*/
+ } 
+ header nav ul {
+    display: flex; /*os itens um ao lado do outro*/
+    justify-content: right; /*leva os itens para a direita*/
+    
+ }
+ header nav ul li {
+    margin: 1vw 10px 1vw 10px; /*margin = espaçamento externo, padding = espaçamento interno*/
+ }
+ header nav ul li.atual a {
+    color: #ff6464; /*muda a cor dos caracteres*/
+ }
+/*=======================
+    formatação works
+  =======================*/
+  main.works h1 {
+    font-weight: normal; /*remove negrito da fonte (vai de 100 a 900)*/
+    margin: 0 0 0 0; /*espaçamento do título*/
+  }
+  main.works section {
+    border-bottom: 1px solid #e0e0e0; /*borda das sections (apenas na parte de baixo*/
+    padding: 3vw 0 2vw 0; /*espaçamento das sections*/ 
+  }
+  main.works section:last-child {
+
+    border: none; /*remove a borda da última section*/
+  }
+  main.works section p {
+    margin: 1vw 0 1vw 0; /*espaçamento do parágrafo*/
+  }
+  main.works section p span {
+   color: white; /*cor da fonte*/
+   background-color: #ff6464; /*cor do fundo*/
+   border-radius: 35px;/*borda do span*/
+   padding: 2px 7px 2px 7px; /*espaçamento do span*/
+   font-weight: bold; /*negrito da fonte*/
+  }
+  .imgWorks {
+    justify-content: center;
+  }
+  /*=======================
+    formatação de home
+  =======================*/
+  section#banner {
+    display: flex; /*coloca os elementos um ao lado do outro*/
+    margin: 6vw 0 3vw 0; /*espaçamento do banner*/
+  }
+  section#banner h1 {
+    font-size: 3vw; /*tamanho da fonte*/
+    margin: 0 0 2vw 0; /*espaçamento com o parágrafo*/
+  }
+  section#banner button {
+    background-color: #FF6464; /*fundo do botão*/
+    margin: 1vw 0 0 0; /*espaçamento com os textos*/
+    padding: 1vw 1vw 1vw 1vw; /*espaçamento dentro do botão*/
+    color: white; /*cor da fonte: branca*/
+    font-size: 1rem; /*tamanho da fonte*/
+    border-radius: 2px; /*arredondamento da borda*/ 
+  }
+  section#banner img {
+    margin: 0 0 0 10vw; /*espaçamento do banner*/
+  }
+  section#rt-posts {
+    background-color: #EDF7FA;/*cor de fundo da section*/
+    padding: 2vw 0 2vw 0; /*esáçamento dentro da section*/
+  }
+  section#rt-posts ul {
+    display: flex; /*coloca os elementos um do lado do outro*/
+  }
+  section#rt-posts ul li {
+    background-color: white; /*altera o fundo do item para branco*/
+    margin: 0 5vw 0 5vw; /*espaçamento*/
+  }
+  section#rt-posts h2 {
+    font-weight: normal; /*tira o negrito*/
+    margin: 0 0 2vw 5vw; /*espaçamento*/
+  }
+  section#rt-posts ul li h3 {
+    margin: 1vw 1vw 2vw 1vw; /*espaçamento*/
+  }
+  section#rt-posts ul li p {
+    margin: 1vw 1vw 1vw 1vw; /*espaçamento*/
+  }
+  section#featuredWorks {
+    margin: 2vw 0 2vw 0; /*espaçamento*/
+  }
+  section#featuredWorks h2 {
+    font-weight: normal;
+    margin: 0 0 2vw 0; /*espaçamento*/
+  }
+  section#featuredWorks div#divCentral { /*ou section#featuredWorks > div*/
+    display: flex; /*coloca os elementos uns ao lado dos outros*/
+  }
+  section#featuredWorks div div{
+    margin: 0 0vw 0 7vw; /*espaçamento*/
+  }
+  section#featuredWorks div div:first-child {
+    margin: 0;
+  }
+  section#featuredWorks div p span {
+    background-color: #142850; /*cor do fundo*/
+    color: white; /*cor da fonte*/
+    border-radius: 20px; /*borda arredondada*/
+    font-weight: bold; /*negrito*/
+    padding: 2px 7px 2px 7px; /*espaçamento*/
+  }
+  section#featuredWorks div p {
+    padding: 5px 0 5px 0; /*espaçamento*/
+  }
+
+  /*=======================
+    formatação de rodapé
+  =======================*/
+  footer {
+    text-align: center; /*centraliza o texto do rodapé*/
+    padding: 1vw 0 2vw 0; /*espaçamento do rodapé*/
+  }
+  footer nav ul {
+    display: flex; /*coloca os elementos um ao lado do outro*/
+    justify-content: center; /*alinha os ícones ao centro*/
+  }
+  footer nav ul li {
+    margin: 0 10px 5px 10px; /*espaçamento dos ícones*/
+    font-size: 2rem; /*tamanho dos ícones (no caso o ícone é uma fonte)*/
+  }
+  footer nav ul li a span {
+   color: #21243d; /*cor dos ícones*/
+  }
