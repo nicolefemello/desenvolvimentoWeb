@@ -2,7 +2,8 @@
                     FORMATAÇÃO GERAL
 ************************************************************************/
 html {
-  font-size: calc(15px + 0.390625vw); /*fonte responsível*/
+  font-size: calc(15px + 0.390625vw);
+  /*fonte responsível*/
 }
 
 /***********************************************************************
@@ -48,10 +49,8 @@ header {
                     FORMATAÇÃO DA PÁGINA
 ************************************************************************/
 section#banner {
-  background: linear-gradient(
-      rgba(121, 189, 154, 0.2),
-      rgba(112, 255, 181, 0.2)
-    ),
+  background: linear-gradient(rgba(121, 189, 154, 0.2),
+      rgba(112, 255, 181, 0.2)),
     url(../img/banner.png) no-repeat center center;
   background-size: 100% auto, 100% auto;
   padding: 350px 5vw 350px 5vw;
@@ -102,10 +101,8 @@ section#diferenciais {
 }
 
 section#numeros {
-  background: linear-gradient(
-      rgba(121, 189, 154, 0.2),
-      rgba(72, 160, 114, 0.658)
-    ),
+  background: linear-gradient(rgba(121, 189, 154, 0.2),
+      rgba(72, 160, 114, 0.658)),
     url(../img/back-numeros.png) no-repeat center center;
   background-size: 100% auto, 100% auto;
   padding: 3vw;
@@ -148,7 +145,7 @@ section#possibilidades {
     }
 
     & a {
-    margin: 2vw 1vw 2vw 1vw;
+      margin: 2vw 1vw 2vw 1vw;
       background-color: #0b486b;
       color: #fff;
       padding: 1vw 2vw 1vw 2vw;
@@ -157,7 +154,7 @@ section#possibilidades {
     }
 
     & a:hover {
-        background-color: #106799;
+      background-color: #106799;
     }
   }
 
@@ -172,23 +169,28 @@ section#possibilidades {
                     FORMATAÇÃO DO FOOTER
 ************************************************************************/
 footer {
-    background-color: #3b8686;
-    display: flex;
-    justify-content: center;
-    color: #fff;
-    padding: 3vw;
+  background-color: #3b8686;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  padding: 3vw;
 
-    & div {
-        margin: 0 10vw 0 10vw;
-        text-align: center;
+  & div {
+    margin: 0 10vw 0 10vw;
+    text-align: center;
 
-        & h4 {
-            font-weight: bold;
-        }
-        
-        & ul li a {
-          color: #fff;
-          text-decoration: none;
-        }
+    & h4 {
+      font-weight: bold;
     }
+
+    & ul li {
+      margin: 0.3vw;
+    }
+
+    & ul li a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 20px;  
+    }
+  }
 }

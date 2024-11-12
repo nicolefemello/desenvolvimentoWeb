@@ -1,0 +1,153 @@
+/*******************************************************
+            FORMATAÇÃO HEADER
+********************************************************/
+header {
+    margin: 2vw;
+
+    & nav {
+        display: flex;
+        justify-content: space-between;
+
+        & ul {
+            display: flex;
+
+            & li {
+                margin: 2vw;
+
+                & a {
+                    text-decoration: none;
+                    color: black;
+                }
+            }
+        }
+
+        & a img {
+            margin: 2vw;
+        }
+    }
+}
+
+/*******************************************************
+            FORMATAÇÃO DA PÁGINA
+********************************************************/
+#banner {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 5vw 2vw 5vw;
+    border-bottom: solid 1px rgb(187, 187, 187);
+
+    & img {
+        border-radius: 250px;
+        margin: 0 3vw 5vw 3vw;
+        position: relative;
+    }
+
+    & div {
+        margin: 2vw;
+        width: 500px;
+
+        & h1 {
+            font-size: 60px;
+            border-bottom: 1px solid rgb(187, 187, 187);
+        }
+
+        & p {
+            margin-top: 5vw;
+            color: gray;
+        }
+
+        div {
+            display: flex;
+
+            & img {
+                width: 50px;
+                height: 50px;
+                margin-left: 0;
+                margin-right: 0;
+            }
+
+            & p {
+                margin-top: 10px;
+                color: black;
+                margin-left: 20px;
+
+                & span {
+                    color: gray;
+                }
+            }
+        }
+
+    }
+}
+
+#case {
+    display: flex;
+    justify-content: center;
+    margin: 2vw 5vw 2vw 5vw;
+    border-bottom: solid 1px rgb(187, 187, 187);
+
+    & div {
+        margin: 2vw;
+        width: 600px;
+
+        & h2 {
+            font-size: 50px;
+            width: 300px;
+        }
+
+        & p {
+            color: gray;
+            margin-top: 2vw;
+        }
+    }
+
+    & ul li {
+        border-bottom: 1px solid rgb(187, 187, 187);
+        margin: 3vw;
+
+        & h3 {
+            font-size: 36px;
+            margin-bottom: 1vw;
+
+            & span {
+                font-size: 24px;
+                color: gray;
+            }
+        }
+
+        & p {
+            color: gray;
+            margin-left: 2vw;
+            margin-bottom: 1vw;
+        }
+    }
+
+    & ul li:last-of-type {
+        border: none;
+    }
+}
+
+/*******************************************************
+            FORMATAÇÃO DO FOOTER
+********************************************************/
+footer {
+    text-align: center;
+
+    & ul {
+        display: flex;
+        justify-content: center;
+
+        & li {
+            margin: 1vw;
+
+            & a {
+                color: black;
+                font-size: 25px;
+            }
+        }
+    }
+
+    & p {
+        margin-bottom: 2vw;
+    }
+}
