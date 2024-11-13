@@ -1,0 +1,89 @@
+/*********************************************************
+        FORMATAÇÃO DO HEADER
+*********************************************************/
+header {
+    padding: 1vw 5vw 1vw 5vw;
+    background-color: #F8F8F8;
+
+    & nav {
+        display: flex;
+        justify-content: space-between;
+
+        & ul {
+            display: flex;
+
+            & li {
+                margin: 0 1vw 0 1vw;
+
+                & a {
+                    color: #868686;
+                    text-decoration: none;
+                }
+
+                & a.atual {
+                    color: #232323;
+                }
+            }
+        }
+
+        & a {
+            color: #232323;
+            text-decoration: none;
+
+            & span {
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+/*********************************************************
+        FORMATAÇÃO DA PÁGINA
+*********************************************************/
+#banner {
+    display: flex;
+    justify-content: center;
+    background-color: #F8F8F8;
+    padding: 5vw 5vw 1vw 5vw;
+
+    & div {
+        width: 662px;
+        height: 517px;
+
+        & h1 {
+            font-size: 60px;
+            margin-bottom: 2vw;
+
+            & span {
+                color: #47C183;
+            }
+        }
+
+        & p {
+            font-size: 20px;
+            margin-bottom: 4vw;
+        }
+
+        & button {
+            padding: 1vw 3vw 1vw 3vw;
+            background-color: #232323;
+            color: #fff;
+            border: none;
+            font-size: 18px;
+        }
+
+        & button:hover {
+            background-color: #3d3d3d;
+        }
+
+        & a {
+            font-size: 18px;
+            color: #232323;
+            margin-left: 5vw;
+        }
+    }
+
+    & img {
+        
+    }
+}
