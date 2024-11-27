@@ -2,6 +2,8 @@ import { createRouter, createWebHistory } from 'vue-router';
 import Cabecalho from '@/components/Cabecalho.vue'
 import Banner from '@/components/Banner.vue';
 import Info from '@/components/Info.vue';
+import Conteudo from '@/components/Conteudo.vue';
+import Blocks from '@/components/Blocks.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -25,6 +27,16 @@ const router = createRouter({
       path: '/text',
       name: 'text',
       component: Text
+    },
+    {
+      path: '/conteudo',
+      name: 'conteudo',
+      component: Conteudo
+    },
+    {
+      path: '/blocks',
+      name: 'blocks',
+      component: Blocks
     }
   ],
 })

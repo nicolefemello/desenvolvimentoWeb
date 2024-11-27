@@ -10,6 +10,7 @@
 section {
     margin-top: 7vw;
     text-align: center;
+    margin-bottom: 3vw;
 
     & h2 {
         font-size: 33px;
@@ -18,6 +19,7 @@ section {
     & p {
         font-size: 18px;
         color: #868686;
+        margin: 0 30vw 0 30vw;
     }
 }
 </style>

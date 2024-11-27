@@ -3,6 +3,8 @@
   import Banner from './components/Banner.vue';
   import Info from './components/Info.vue';
   import Text from './components/Text.vue';
+  import Conteudo from './components/Conteudo.vue';
+  import Blocks from './components/Blocks.vue';
 </script>
 
 <template>
@@ -11,5 +13,7 @@
     <Banner />
     <Info />
     <Text />
+    <Conteudo />
+    <Blocks />
   </main>
 </template>
