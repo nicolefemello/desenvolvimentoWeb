@@ -4,6 +4,8 @@ import Banner from '@/components/Banner.vue';
 import Info from '@/components/Info.vue';
 import Conteudo from '@/components/Conteudo.vue';
 import Blocks from '@/components/Blocks.vue';
+import Subscribe from '@/components/Subscribe.vue';
+import Rodape from '@/components/Rodape.vue';
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -37,6 +39,16 @@ const router = createRouter({
       path: '/blocks',
       name: 'blocks',
       component: Blocks
+    },
+    {
+      path: '/subscribe',
+      name: 'subscribe',
+      component: Subscribe
+    },
+    {
+      path: '/rodape',
+      name: 'rodape',
+      component: Rodape
     }
   ],
 })

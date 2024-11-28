@@ -30,7 +30,7 @@ section {
         & div {
             display: block;
             width: 516px;
-            margin: 0;
+            margin: 0 3vw 0 3vw;
 
             & h2 {
                 font-size: 30px;

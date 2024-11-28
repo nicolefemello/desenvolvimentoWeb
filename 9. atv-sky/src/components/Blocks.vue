@@ -18,5 +18,75 @@
 </template>
 
 <style scoped>
+section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 8vw;
 
+    & div {
+        width: 572px;
+        height: 459px;
+        text-align: center;
+        margin: 0 5vw 0 5vw;
+        padding: 3vw 10vw 0 10vw;
+        border-radius: 20px;
+
+        & h3 {
+            font-size: 25px;
+        }
+
+        & p {
+            font-size: 16px;
+        }
+
+        & button {
+            border-radius: 10px;
+            border: none;
+            padding: 0.8vw 1.5vw 0.8vw 1.5vw;
+            font-size: 16px;
+        }
+
+    }
+
+    & div#first {
+        background-color: #F4F4F4;
+
+        & p {
+            color: #545454;
+        }
+
+        & button {
+            background-color: #1090CB;
+            color: #ffffff;
+            font-weight: bold;
+        }
+
+        & button:hover {
+            background-color: #189bd8;
+            cursor: pointer;
+        }
+    }
+
+    & div#second {
+        background-color: #1090CB;
+
+        & p {
+            color: #ffffff;
+        }
+
+        & h3 {
+            color: #ffffff;
+        }
+
+        & button {
+            color: #1090CB;
+            font-weight: bold;
+        }
+
+        & button:hover {
+            background-color: #dddddd;
+            cursor: pointer;
+        }
+    }
+}
 </style>

@@ -1,6 +1,6 @@
 <template>
     <header>
-        <h1>CÉU</h1>
+        <img src="../img/logo.png" alt="Logo Céu">
         <nav>
             <ul>
                 <li><a href="#" class="atual">Home</a></li>
@@ -19,9 +19,9 @@ header {
     justify-content: space-between;
     padding: 1vw 2vw 0 2vw;
 
-    & h1 {
-        color: #1090CB;
-        font-size: 29px;
+    & img {
+        width: 59px;
+        height: 35px;
         margin-top: 0.5vw;
     }
 

@@ -59,6 +59,7 @@ section {
 
         & button#contact:hover {
             background-color: #189bd8;
+            cursor: pointer;
         }
 
         & button#view {
@@ -72,6 +73,7 @@ section {
 
         & button#view:hover {
             background-color: #ebe9e9;
+            cursor: pointer;
         }
     }
 
