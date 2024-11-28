@@ -7,6 +7,7 @@ import Conteudo from './components/Conteudo.vue';
 import Blocks from './components/Blocks.vue';
 import Subscribe from './components/Subscribe.vue';
 import Rodape from './components/Rodape.vue';
+
 </script>
 
 <template>
