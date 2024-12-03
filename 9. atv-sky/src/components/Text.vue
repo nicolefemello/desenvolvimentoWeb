@@ -14,12 +14,16 @@ section {
 
     & h2 {
         font-size: 33px;
+        font-weight: 600;
+        margin-bottom: 3vw;
     }
 
     & p {
         font-size: 18px;
         color: #868686;
         margin: 0 30vw 0 30vw;
+        line-height: 31px;
+        margin-bottom: 10vw;
     }
 }
 </style>

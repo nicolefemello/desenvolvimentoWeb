@@ -16,6 +16,8 @@ section {
         color: #252525;
         margin: 0 35vw 5vw 35vw;
         font-size: 30px;
+        font-weight: 600;
+        line-height: 51px;
     }
 
     & input {

@@ -49,6 +49,8 @@ footer {
             list-style: none;
 
             & li {
+                margin-bottom: 0.7vw;
+
                 & a {
                     text-decoration: none;
                     color: #515151;

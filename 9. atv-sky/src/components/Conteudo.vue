@@ -25,7 +25,7 @@
 section {
     & div {
         display: flex;
-        margin: 0 15vw 10vw 15vw;
+        margin: 0 15vw 10vw 12vw;
         
         & div {
             display: block;
@@ -35,6 +35,9 @@ section {
             & h2 {
                 font-size: 30px;
                 color: #252525;
+                font-weight: 600;
+                line-height: 51px;
+                margin-bottom: 3vw;
 
                 & span {
                     color: #1090CB;
@@ -43,6 +46,7 @@ section {
 
             & p {
                 color: #545454;
+                line-height: 27px;
             }
         }
     }

@@ -17,12 +17,11 @@
 header {
     display: flex;
     justify-content: space-between;
-    padding: 1vw 2vw 0 2vw;
+    padding: 2vw 2vw 1vw 2vw;
 
     & img {
-        width: 59px;
+        width: 70px;
         height: 35px;
-        margin-top: 0.5vw;
     }
 
     & nav ul {
@@ -30,7 +29,7 @@ header {
         list-style: none;
 
         & li {
-            margin: 0 2vw 0 2vw;
+            margin: 0.6vw 2vw 0 2vw;
 
             & a {
                 text-decoration: none;

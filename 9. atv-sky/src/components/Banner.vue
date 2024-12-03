@@ -17,7 +17,7 @@
 section {
     display: flex;
     justify-content: center;
-    padding-bottom: 3vw;
+    padding: 8vw 2vw 3vw 2vw;
     background-color: #1090CB1A;
 
     & div {
@@ -25,6 +25,9 @@ section {
 
         & h1 {
             font-size: 40px;
+            font-weight: 700;
+            margin-bottom: 2vw;
+            line-height: 60px;
 
             & span {
                 color: #1090CB;
@@ -34,6 +37,7 @@ section {
         & p {
             font-size: 16px;
             color: #5C5C5C;
+            line-height: 32px;
         }
 
         & button {

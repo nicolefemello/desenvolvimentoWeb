@@ -33,10 +33,15 @@ section {
 
         & h3 {
             font-size: 25px;
+            font-weight: 600;
+            line-height: 42px;
+            margin-bottom: 3vw;
         }
 
         & p {
             font-size: 16px;
+            line-height: 27px;
+            margin-bottom: 2vw;
         }
 
         & button {

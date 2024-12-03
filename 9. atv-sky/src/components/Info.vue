@@ -36,7 +36,7 @@
 <style scoped>
 section {
     border-bottom: solid 0.7px #C7C7C7;
-    padding-bottom: 1vw;
+    padding: 2vw;
 
     & ul {
         display: flex;
@@ -49,7 +49,6 @@ section {
             & img {
                 width: 45px;
                 height: 45px;
-                margin-top: 1vw;
                 padding: 1vw;
                 border-radius: 20px;
             }
@@ -77,6 +76,7 @@ section {
             & h3 {
                 font-size: 20px;
                 margin-bottom: 0.7vw;
+                font-weight: 500;
             }
 
             & p {
