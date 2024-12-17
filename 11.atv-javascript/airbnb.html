@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Airbnb</title>
+    <link rel="stylesheet" href="./CSS/styleAirbnb.css"> 
+    <!-- lógica da data -->
+</head>
+
+<body>
+    <main>
+        <form action="#">
+            <fieldset>
+                <legend>VALOR DAS RESERVAS</legend>
+                <p>
+                    <label for="preco">PREÇO</label>
+                    <input type="number" name="preco" id="preco" required min="0">
+                </p>
+                <p>
+                    <label for="entrada">CHECK-IN</label>
+                    <input type="date" name="entrada" id="entrada" required>
+
+                    <label for="saida">CHECKOUT</label>
+                    <input type="date" name="saida" id="saida" required>
+                </p>
+                <p>
+                    <label for="taxaLimpeza">TAXA DE LIMPEZA</label>
+                    <input type="number" name="taxaLimpeza" id="taxaLimpeza" required min="0">
+                </p>
+                <p>
+                    <label for="cupom">CUPOM</label>
+                    <select name="cupom" id="cupom">
+                        <option value="0"></option>
+                        <option value="0.1">OFF10%</option>
+                        <option value="0.15">OFF15%</option>
+                        <option value="0.40">OFF40%</option>
+                    </select>
+                </p>
+                <p>
+                    <input type="button" value="ENVIAR" id="btn-send">
+                    <input type="button" value="RESETAR" id="btn-reset">
+                </p>
+            </fieldset>
+            <p id="valorHospedagem"></p>
+        </form>
+    </main>
+    <script src="./JavaScript/scriptAirbnb.js"></script>
+</body>
+
+</html>
